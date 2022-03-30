@@ -1,5 +1,5 @@
 {
-  "name": "random-messages",
+  "name": "random-msges",
   "version": "1.0.0",
   "description": "random de mensajes",
   "main": "src/index.js",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/kalliche/random-messages/issues"
   },
-  "homepage": "https://github.com/kalliche/random-messages#readme"
+  "homepage": "https://github.com/kalliche/random-messages#readme",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
