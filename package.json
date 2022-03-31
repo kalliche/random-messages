@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kalliche/random-messages#readme",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "/bin/global.js"
   },
   "preferGlobal": true
 }
